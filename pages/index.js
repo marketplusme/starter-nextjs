@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -14,16 +14,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Zahir Bukhari!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <p className={styles.description}>
-          Try out api routes{' '}
+          Try out api routes{" "}
           <Link href="api/hello" passHref>
             <code className={styles.code}>api/hello</code>
           </Link>
@@ -48,12 +48,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            Cyclic
-          </span>
+          Powered by <span className={styles.logo}>Cyclic</span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
